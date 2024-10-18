@@ -1,0 +1,48 @@
+.clear-exit {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(0, 0%, 0%, 0.548);
+  display: none;
+  z-index: 1;
+}
+
+.clear-exit--show {
+  display: flex;
+}
+
+.inner {
+  width: 80%;
+  height: 60%;
+  padding-top: 60px;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  strong {
+    font-weight: bolder;
+  }
+}
+
+.parent-btn {
+  margin-top: 50px;
+  display: flex;
+  gap: 100px;
+}
+
+.exit,
+.remove {
+  padding: 16px 28px;
+  font-size: 30px;
+  cursor: pointer;
+}

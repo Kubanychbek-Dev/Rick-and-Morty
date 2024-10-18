@@ -1,0 +1,154 @@
+@import "vars";
+
+.episodes-header {
+  margin: 0;
+  padding: 0;
+  padding-top: 38px;
+}
+
+.episodes-container {
+  padding: 0;
+}
+
+.episodes-nav {
+  padding: 35px 0;
+
+  &__title {
+    text-align: center;
+    font-family: $font;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.26px;
+    color: $black;
+    margin-bottom: 34px;
+  }
+
+  &__form {
+    display: flex;
+
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    div + div {
+      margin-left: 30px;
+    }
+
+    label {
+      font-family: $font;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 14.63px;
+      color: $black;
+    }
+
+    input[id="episode-name"] {
+     width: 370px;
+    }
+
+    input {
+      width: 290px;
+      padding: 11px 13px;
+      border-radius: 6px;
+      border-color: #A1A1A199;
+      font-family: $font;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 14.63px;
+      color: $second-black;
+    }
+  }
+}
+
+
+.episodes-main {
+
+  &__card {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 29px 17px 29px;
+    width: 1170px;
+    border-radius: 6px;
+    border-style: dashed;
+    border-width: 1px;
+    margin-bottom: 35px;
+    transition: all 0.8s ease;
+
+    &:hover {
+      box-shadow: 21px 10px 8px 2px rgba(34, 60, 80, 0.38);
+    }
+  }
+
+  &__title {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.88px;
+    color: $black;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+
+  &__span {
+    font-family: $font;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    color: $second-black;
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+
+  &__strong {
+    font-family: $font;
+     font-size: 14px;
+     font-weight: 500;
+     line-height: 17.07px;
+     color: $black;
+     display: inline-block;
+     margin-bottom: 5px;
+  }
+
+  &__btn {
+    position: relative;
+    top: 8px;
+    right: -600px;
+    width: 241px;
+    font-family: $font;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18.29px;
+    color: #fff;
+    background-color: #00A3FF;
+    border-radius: 6px;
+    border: none;
+    padding: 12px 13px 12px 13px;
+    cursor: pointer;
+  }
+
+  &__strong-leed {
+    color: hsl(240, 100%, 50%);
+    text-decoration: underline;
+      display: inline-block;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 17.07px;
+      margin-bottom: 5px;
+      cursor: pointer
+  }
+
+  &__leed {
+    width: 842px;
+    font-family: $font;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    color: $black;
+  }
+}
+
+.hello {
+  margin: 0;
+}

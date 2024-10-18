@@ -1,0 +1,114 @@
+@import "vars";
+
+.registr-popup {
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  background-color: hsla(0, 0%, 0%, 0.62);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 1;
+}
+
+.registr-popup--show {
+  display: flex;
+}
+
+.registr-card {
+  width: 370px;
+    min-height: 637px;
+    border: 1px solid hsla(240, 100%, 50%, 0.679);
+    border-style: dotted;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $white;
+    margin-top: 80px;
+    position: relative;
+}
+
+.img-top {
+  position: absolute;
+  top: 0%;
+  left: 44%;
+  width: 205px;
+  height: 205px;
+  background-image: url(../img/image-top.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.img-left {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  width: 264px;
+  height: 352px;
+  background-image: url(../img/image-left.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.img-right {
+  position: absolute;
+  top: 30%;
+  right: 35%;
+  width: 93px;
+  height: 286px;
+  transform: rotate(40deg);
+  background-image: url(../img/right.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.registr-title {
+  font-family: $font;
+font-size: 36px;
+font-weight: 500;
+line-height: 43.88px;
+color: $black;
+}
+
+.registr-input {
+  width: 331px;
+  font-family: $font;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.63px;
+color: lighten($black, 40%);
+padding: 11px;
+border-color: lighten(black, 70%);
+border-radius: 8px;
+margin-bottom: 35px;
+}
+
+.registr-input:valid {
+   background-color: hsla(120, 100%, 25%, 0.424);
+}
+
+.registr-input:invalid {
+  background-color: lighten(red, 40%);
+}
+
+.registr-input:not(:focus):invalid {
+  background-color: white;
+}
+
+.registr-btn {
+  display: block;
+  margin: 0 auto;
+  background-color: black;
+  font-family: $font;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.94px;
+color: $white;
+padding: 14px 30px;
+border-radius: 8px;
+cursor: pointer;
+}

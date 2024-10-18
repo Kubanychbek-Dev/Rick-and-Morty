@@ -1,0 +1,121 @@
+@import "vars";
+
+.enter-popup {
+  position: absolute;
+  top: 1%;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: hsla(0, 0%, 0%, 0.536);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 1;
+}
+
+.card-title {
+font-family: $font;
+font-size: 48px;
+font-weight: 500;
+line-height: 58.51px;
+color: $black;
+margin: 0;
+margin-bottom: 54px;
+}
+
+.enter-card {
+  width: 370px;
+  min-height: 445px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-style: dotted;
+  border-color: lighten(red, 40%);
+  padding: 34px 19px 36px 19px;
+  position: relative;
+}
+
+.img-top {
+  position: absolute;
+  top: 4%;
+  left: 44%;
+  width: 205px;
+  height: 205px;
+  background-image: url(../img/image-top.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.img-left {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  width: 264px;
+  height: 352px;
+  background-image: url(../img/image-left.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.img-right {
+  position: absolute;
+  top: 30%;
+  right: 35%;
+  width: 93px;
+  height: 286px;
+  transform: rotate(40deg);
+  background-image: url(../img/right.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.input {
+  width: 331px;
+  margin-bottom: 35px;
+  padding: 11px;
+  border-color: lighten($black, 90%);
+  border-radius: 4px;
+  font-family: Montserrat;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.63px;
+color: $black;
+}
+
+.memory {
+  width: 15px;
+  height: 15px;
+}
+
+.memory-label {
+font-family: $font;
+font-size: 14px;
+font-weight: 500;
+line-height: 17.07px;
+text-align: left;
+color: $black;
+}
+
+.enter-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 54px;
+  font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.94px;
+color: $white;
+background-color: black;
+padding: 13px 33px;
+border-radius: 6px;
+cursor: pointer;
+}
+
+.enter-popup--show {
+  display: flex;
+}

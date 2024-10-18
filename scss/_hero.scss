@@ -1,0 +1,59 @@
+@import "vars";
+
+.hero {
+  padding-bottom: 113px;
+  
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+  }
+
+  &__item {
+    margin: 0;
+    width: 369px;
+    min-height: 671px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    figure {
+      border: 1px solid lighten(black, 70%);
+      padding: 20px 20px 33px 20px;
+      border-radius: 9px;
+      transition: all 1s;
+
+      &:hover {
+        box-shadow: 4px 6px 8px lighten(black, 50%);
+        transform: scale(1.1);
+      }
+    }
+
+    .img {
+      width: 330px;
+    min-height: 494px;
+    display: inline-block;
+    margin-bottom: 18px;
+    }
+
+    .img-title {
+    margin-bottom: 18px;
+    font-family: $font;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43.88px;
+    color: $black;
+    }
+
+    .img__leed {
+      font-family: $font;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19.5px;
+      color: $black;
+    }
+  }
+}

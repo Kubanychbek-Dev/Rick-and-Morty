@@ -1,0 +1,45 @@
+@import "vars";
+
+.about-nav {
+  padding: 35px 0 50px;
+
+  &__intro {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+    color: $font;
+  }
+
+  &__title {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    color: $font;
+    margin-left: 420px;
+  }
+}
+
+.about-main {
+
+  p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: center;
+    color: $black;
+  }
+}
