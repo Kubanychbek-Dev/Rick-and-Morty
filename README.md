@@ -1,2 +1,10 @@
-This is my Educational project using HTML, CSS, SASS, JavaScript:
-https://kubanychbek-dev.github.io/Rick-and-Morty/
+# This is my Educational project
+
+##### I used:
+- HTML
+- CSS
+- SCSS
+- JavaScript
+- Fetch API
+
+[https://kubanychbek-dev.github.io/Rick-and-Morty/]
