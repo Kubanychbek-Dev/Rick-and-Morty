@@ -7,4 +7,4 @@
 - JavaScript
 - Fetch API
 
-(https://kubanychbek-dev.github.io/Rick-and-Morty/)
+[https://kubanychbek-dev.github.io/Rick-and-Morty/](https://kubanychbek-dev.github.io/Rick-and-Morty/)
