@@ -3,8 +3,8 @@
 ##### I used:
 - HTML
 - CSS
-- SCSS
-- JavaScript
+- SASS
+- JavaScript (modules)
 - Fetch API
 
 [https://kubanychbek-dev.github.io/Rick-and-Morty/](https://kubanychbek-dev.github.io/Rick-and-Morty/)
